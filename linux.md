@@ -9,7 +9,7 @@
 GNU计划发起后，涌现了Vi、Emacs、gcc等十分优秀的软件。但遗憾的是，一直没有一个比较完美的操作系统出现。直到1991年，芬兰大学生林纳斯•本纳第克特•托瓦兹（Linus Benedict Torvalds）基于兴趣开发了一个类Unix操作系统，一经发布便得到了广大爱好者的追捧，这个系统就是Linux。1994年，Linux加入GNU计划并采用GPL协议发布。自此，GNU/Linux真正实现了构建一套完全自由的操作系统的设想。
 
 
-##Linux发行版 ###
+##Linux发行版 ##
 linux是免费的，免费是指linux的内核免费
 linux发行版是指将Linux内核与应用软件进行打包。
 
@@ -26,7 +26,7 @@ linux发行版是指将Linux内核与应用软件进行打包。
 - Xterm
 - SlackWare
 
-##Linux用户权限管理##
+Linux用户权限管理	  
 
 **Linux系统：** root的权限是最高的，相当于windows的administrator，拥有最高权限，能执行任何命令和操作。在系统中，通过UID来区分用户的权限级别，UID等于0，表示此用户具有最高权限，也就是管理员。其他的用户UID依次增加，通过/etc/passwd用户密码文件可以查看到每个用户的独立的UID。
 
