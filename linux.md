@@ -159,4 +159,19 @@ linux发行版是指将Linux内核与应用软件进行打包。
 - NFS服务器
 
 
-## linux rpm、yum ##
+## linux yum使用 ##
+**yum**是 Fedora RHEL Centos SUSE等linux 发行版的 软件包管理工具
+### 概念 ###
+- yum 全称：Yellow dog Updater Modified. 
+- yum 功能：方便的添加/删除/更新RPM包,自动解决包的倚赖性问题.便于管理大量系统的更新问题
+- 特点：同时配置多个资源库(Repository),配置简单(/etc/yum.conf)
+
+		#yum makecache  //将服务器上的软件包信息 现在本地缓存,以提高 搜索 安装软件的速度
+		#yum list  		//列出资源库中所有可以安装或更新的rpm包
+		#yum search     //搜索软件包搜索
+		#yum install 	//安装软件包
+		#yum remove 	//删除软件包
+		#yum info       //查看软件的信息
+
+		#yum update kernel //升级内核
+
